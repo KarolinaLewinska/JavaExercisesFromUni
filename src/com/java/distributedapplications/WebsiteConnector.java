@@ -17,8 +17,8 @@ public class WebsiteConnector {
             socket3 = new Socket("www.onet.pl", 80);
             socket4 = new Socket("www.interia.pl", 80);
         } catch (IOException exc) {
-            Logger.getLogger(UrlReader.class.getName()).info(exc.getMessage());
-            Logger.getLogger(UrlReader.class.getName()).info(exc.getCause().toString());
+            Logger.getLogger(WebsiteConnector.class.getName()).info(exc.getMessage());
+            Logger.getLogger(WebsiteConnector.class.getName()).info(exc.getCause().toString());
             exc.getStackTrace();
         }
         printSocketInfo(socket1);

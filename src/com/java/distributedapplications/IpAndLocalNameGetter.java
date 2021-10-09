@@ -12,7 +12,7 @@ public class IpAndLocalNameGetter {
             System.out.println("IP address: " + ipAddress + "\n" + "Computer name: " + computerName);
         }
         catch (Exception exc) {
-            Logger.getLogger(UrlReader.class.getName()).info(exc.getMessage());
+            Logger.getLogger(IpAndLocalNameGetter.class.getName()).info(exc.getMessage());
             System.exit(0);
         }
     }
