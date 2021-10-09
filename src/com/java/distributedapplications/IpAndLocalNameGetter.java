@@ -7,9 +7,9 @@ public class IpAndLocalNameGetter {
     public static void main(String[] args) {
         try {
             InetAddress inetAddress = InetAddress.getLocalHost();
-            String ipAddres = inetAddress.getHostAddress();
+            String ipAddress = inetAddress.getHostAddress();
             String computerName = inetAddress.getHostName();
-            System.out.println("IP address: " + ipAddres + "\n" + "Computer name: " + computerName);
+            System.out.println("IP address: " + ipAddress + "\n" + "Computer name: " + computerName);
         }
         catch (Exception exc) {
             Logger.getLogger(UrlReader.class.getName()).info(exc.getMessage());
