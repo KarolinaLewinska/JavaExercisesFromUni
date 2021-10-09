@@ -1,7 +1,6 @@
 package com.java.distributedapplications;
 
 import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.util.logging.Logger;
 
 public class IpAndLocalNameGetter {
