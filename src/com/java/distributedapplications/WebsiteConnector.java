@@ -2,7 +2,6 @@ package com.java.distributedapplications;
 
 import java.io.IOException;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.logging.Logger;
 
 public class WebsiteConnector {
