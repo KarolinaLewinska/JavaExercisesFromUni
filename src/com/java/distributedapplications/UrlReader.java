@@ -1,4 +1,4 @@
-package com.java.aplikacjerozproszone;
+package com.java.distributedapplications;
 
 import java.io.BufferedReader;
 import java.io.FileWriter;
