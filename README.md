@@ -1,4 +1,4 @@
-# JavaExercisesFromUni
+# Java Exercises
 Exercises made during university classes:
 - **UrlReader** - application which extract links from website's URL, print results in the console and save it to the file.
 - **WebsiteConnector** - application which print in console IP addresses, ports and localports of sample websites.
