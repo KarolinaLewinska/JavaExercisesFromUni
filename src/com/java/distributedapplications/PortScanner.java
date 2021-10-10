@@ -26,10 +26,10 @@ public class PortScanner {
                         Socket socket = new Socket();
                         SocketAddress socketAddress = new InetSocketAddress(serverAddress, port);
                         socket.connect(socketAddress, 1);
-                        System.out.println("Connection established at port: " + socket.getPort());
+                        System.out.println("Connection established via port: " + socket.getPort());
                         socket.close();
                     } catch (SocketTimeoutException ste) {
-                        System.out.println("Cannot connect with port: " + port);
+                        System.out.println("Cannot connect via port: " + port);
                     }
                 }
 
