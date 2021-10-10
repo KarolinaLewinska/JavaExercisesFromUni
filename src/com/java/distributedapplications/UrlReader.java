@@ -17,7 +17,7 @@ public class UrlReader {
         executorService.submit( () -> {
             try {
                 getLinksFromUrlAndSaveToFile("https://www.otodom.pl/pl/oferty/wynajem/mieszkanie/sopot");
-            } catch(Exception ex) {
+            } catch (Exception ex) {
                 Logger.getLogger(UrlReader.class.getName()).log(Level.SEVERE, null, ex);
             }
         });

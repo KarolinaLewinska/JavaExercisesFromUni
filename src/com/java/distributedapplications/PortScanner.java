@@ -1,6 +1,5 @@
 package com.java.distributedapplications;
 
-import java.net.ConnectException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketAddress;
