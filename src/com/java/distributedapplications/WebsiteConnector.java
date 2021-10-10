@@ -5,7 +5,7 @@ import java.net.Socket;
 import java.util.logging.Logger;
 
 public class WebsiteConnector {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Socket socket1 = null;
         Socket socket2 = null;
         Socket socket3 = null;
@@ -27,9 +27,10 @@ public class WebsiteConnector {
         printSocketInfo(socket4);
     }
 
-    public static void printSocketInfo(Socket socket) {
+    public static void printSocketInfo(Socket socket) throws IOException {
         if (socket != null) {
             System.out.println(socket);
+            socket.close();
         }
     }
 }
