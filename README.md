@@ -4,3 +4,4 @@ Exercises made during university classes:
 - **WebsiteConnector** - application which print in console IP addresses, ports and localports of sample websites.
 - **IpAndLocalNameGetter** - application which print in console IP address and host name of currently used computer.
 - **IpAddressesGetter** - application which print in console all IP addresses of written in the program arguments hostname.
+- **PortScanner** - application which checks if is possible to connect to the host via ports 1-65535.
