@@ -5,3 +5,4 @@ Exercises made during university classes:
 - **3. IpAndLocalNameGetter** - application which print in console IP address and host name of currently used computer.
 - **4. IpAddressesGetter** - application which print in console all IP addresses of written in the program arguments hostname.
 - **5. PortScanner** - application which checks if is possible to connect to the host via ports 1-65535.
+- **6. RunnableClass, SynchronizedLocks** - usage of ReentrantLock and Threads.
